@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Form"
+    android:textSize="30sp"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    />
+    <EditText
+        android:id="@+id/name_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the name"
+        android:layout_margin="22dp"
+        android:textSize="23sp"
+        android:padding="11dp"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/contact_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Contact"
+        android:layout_margin="22dp"
+        android:textSize="23sp"
+        android:padding="11dp"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:id="@+id/email_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Email"
+        android:layout_margin="22dp"
+        android:textSize="23sp"
+        android:padding="11dp"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:id="@+id/password_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Password"
+        android:layout_margin="22dp"
+        android:textSize="23sp"
+        android:padding="11dp"
+        android:layout_gravity="center"
+        />
+    <CheckBox
+        android:id="@+id/check_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agree term and condition"
+        android:textSize="27sp"
+        android:layout_margin="22dp"
+        android:padding="11dp"
+        />
+    <Button
+        android:id="@+id/btnclick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sumbit"
+        android:textSize="23sp"
+        android:layout_gravity="center"
+        android:layout_margin="22dp"
+        android:padding="11dp"
+        />
+</LinearLayout>
